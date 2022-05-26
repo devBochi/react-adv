@@ -3,4 +3,6 @@ export const LazyTwo = () => {
       <div>LazyTwo</div>
     )
   }
+
+export default LazyTwo;
   
