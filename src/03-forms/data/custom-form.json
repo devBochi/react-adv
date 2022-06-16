@@ -1,0 +1,69 @@
+[
+    {
+        "type":"input",
+        "name":"firstName",
+        "placeholder":"Nahuel",
+        "label":"First Name",
+        "value":"",
+        "validations":[
+                            {
+                                "type":"required"
+                            },
+                            {
+                                "type":"minLength",
+                                "value":5
+                            }
+                        ]
+    },
+    {
+        "type":"input",
+        "name":"lastName",
+        "placeholder":"Montes de Oca",
+        "label":"Last Name",
+        "value":"",
+        "validations":[
+                            {
+                                "type":"required"
+                            }
+                        ]
+    },
+    {
+        "type":"email",
+        "name":"email",
+        "placeholder":"algo@example.com",
+        "label":"Email",
+        "value":"",
+        "validations":[
+                            {
+                                "type":"required"
+                            },
+                            {
+                                "type":"email"
+                            }
+                        ]
+    },
+    {
+        "type":"select",
+        "name":"favoriteGame",
+        "label":"Favorite Game",
+        "options": [
+            {
+                "id":"1",
+                "label":"FIFA 22"
+            },
+            {
+                "id":"2",
+                "label":"Metal Gear Solid"
+            },
+            {
+                "id":"3",
+                "label":"League of Legends"
+            }
+        ],
+        "validations":[
+                            {
+                                "type":"required"
+                            }
+                        ]
+    }
+]
